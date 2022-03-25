@@ -3,7 +3,7 @@ import InfoCard from "./InfoCard"
 function InfoContainer({info}){
     
     // within this functional component of InfoContainer, I am passing state as a prop.
-    // I am then using the data within that state to pass props along to the InfoCards component. 
+    // I am then using the data within that state to pass props along to the InfoCard component. 
     
     return(
         <div>
