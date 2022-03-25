@@ -1,4 +1,4 @@
-import InfoCards from "./InfoCards"
+import InfoCard from "./InfoCard"
 
 function InfoContainer({info}){
     
@@ -7,7 +7,7 @@ function InfoContainer({info}){
     
     return(
         <div>
-            <InfoCards key={info.objectID} image={info.primaryImageSmall} title={info.title} name={info.artistDisplayName}/>
+            <InfoCard key={info.objectID} image={info.primaryImageSmall} title={info.title} name={info.artistDisplayName}/>
         </div>
     )
 }

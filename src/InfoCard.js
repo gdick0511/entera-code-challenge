@@ -1,5 +1,5 @@
 
-function InfoCards({image, title, name}){
+function InfoCard({image, title, name}){
 
     // After importing the props that were passed into this component, I can then assign them to elements within the return to render the data that was requested 
     return(
@@ -11,4 +11,4 @@ function InfoCards({image, title, name}){
     )
 }
 
-export default InfoCards;
+export default InfoCard;
