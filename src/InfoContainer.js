@@ -2,17 +2,9 @@ import InfoCards from "./InfoCards"
 
 function InfoContainer({info}){
     
-    const mappableData = Object.values(info)
-
-    // console.log(info)
-    // console.log(info.constituents[0])
-    // console.log(mappableData[0])
-    // console.log(info.objectID)
-
-    // console.log(mappableData)
-
-    // let myArry = [mappableData[0], mappableData[6], mappableData[11],mappableData[19]]
-
+    // within this functional component of InfoContainer, I am passing state as a prop.
+    // I am then using the data within that state to pass props along to the InfoCards component. 
+    
     return(
         <div>
             <InfoCards key={info.objectID} image={info.primaryImageSmall} title={info.title} name={info.artistDisplayName}/>
