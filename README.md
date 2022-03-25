@@ -1,70 +1,42 @@
-# Getting Started with Create React App
+# Junior Engineer Code Test
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+To complete this code challenge, you will need to create an HTML page that renders the art
+provided by the endpoint below from the Met Museum’s Public API.This API does not require
+registration or an API key. Please render the image, the title of the art, and the artist’s name.
+Please do not spend more than a couple hours on this task. We understand that this is not
+enough time to create a polished application. Use this task to demonstrate your skills for the
+area you’ll be working in (e.g., Front-End, Full Stack, Back-End). Use whatever framework or
+designs you think help you accomplish this.
+Once the task is complete, please push to a Github repository and share the link with your hiring
+manager. Good luck!
+API Endpoint
 
-## Available Scripts
+[API]https://collectionapi.metmuseum.org/public/collection/v1/objects/436121
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## Getting started
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1) Fork and clone this repository down
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+2) Run the following command:
+`npm install`
 
-### `npm test`
+## Starting the Application 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1) run the following command:
+`npm start`
 
-### `npm run build`
+This should then open up a localhost session within your browser
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## What you should see
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Within the app, you should see a header with the text "Entera Code Challenge" within it
 
-### `npm run eject`
+You should then also see:
+1) The image of the particular piece of art
+2) The title of the particular piece of art
+3) And finally, the artist that is associated with creating the art piece
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
